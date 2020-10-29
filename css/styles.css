@@ -77,6 +77,15 @@ nav ul li a {
   color: var(--lightGreen);
   text-decoration: none; }
 
+section p {
+  font-size: 40px;
+  color: var(--darkGrey); }
+
+section span {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: var(--midPink); }
+
 nav {
   background-color: var(--midGrey);
   padding: 10px; }
@@ -154,3 +163,8 @@ form {
   font-size: 3rem;
   margin: 50px auto;
   box-sizing: border-box; }
+
+.legend {
+  padding: 30px;
+  background-color: var(--lightYellow);
+  border: 5px solid var(--darkGrey); }
