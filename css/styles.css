@@ -57,5 +57,22 @@ p {
   font-family: 'Poppins', sans-serif;
   font-weight: bold; }
 
-* {
-  background: black !important; }
+.label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.3rem; }
+
+textarea {
+  display: block;
+  height: 10rem;
+  width: 100%;
+  margin-bottom: 2rem; }
+
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem; }
+
+/* molecules */
+form {
+  margin: 10px; }
