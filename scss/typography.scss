@@ -30,3 +30,15 @@ nav {
         text-decoration: none;
     }
 }
+
+section {
+    p {
+        font-size: 40px;
+        color: var(--darkGrey);
+    }
+    span {
+        font-family: 'Pacifico', cursive;
+        font-size: 40px;
+        color: var(--midPink);
+    }
+}
