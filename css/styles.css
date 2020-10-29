@@ -168,3 +168,6 @@ form {
   padding: 30px;
   background-color: var(--lightYellow);
   border: 5px solid var(--darkGrey); }
+
+.mySlides {
+  display: none; }
