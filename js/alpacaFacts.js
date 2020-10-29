@@ -1,5 +1,6 @@
 ((d) => {
     let informpacanator = d.getElementById('informpacanator');
+    let alpacaSound = new Audio('./assets/alpacaSound.mp3');
 
     let alpacaFacts = [
         "The position alpacas assume while riding in a minivan is called “Cushing.” Also, alpacas apparently ride in minivans.",
@@ -25,9 +26,17 @@
         "Baby alpacas can weigh up to 20 pounds at birth."
     ];
 
-    let randomNumber = () => Math.floor((Math.random() * (alpacaFacts.length )));
-    let infoCycle = () => informpacanator.textContent = alpacaFacts[randomNumber()];
+    let randomFact = () => Math.floor((Math.random() * (alpacaFacts.length )));
+    let infoCycle = () => {
+        informpacanator.textContent = alpacaFacts[randomFact()];
+        alpacaSound.play();
+    }
+
+    informpacanator.textContent = alpacaFacts[randomFact()];
 
     informpacanator.addEventListener("click", infoCycle);
+    informpacanator.addEventListener("mouseover", () => {
+        informpacanator.style.cursor = "pointer";
+    });
 
 })(document)
