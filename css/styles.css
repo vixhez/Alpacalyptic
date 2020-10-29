@@ -68,18 +68,38 @@ p {
 
 nav .nav-title {
   font-family: 'Pacifico', cursive;
-  font-size: 70px;
+  font-size: 100px;
   color: var(--lightPink); }
 
-nav ul li {
+nav ul li a {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  color: var(--lightGreen); }
+  color: var(--lightGreen);
+  text-decoration: none; }
 
 nav {
-  background-color: var(--midGrey); }
+  background-color: var(--midGrey);
+  padding: 10px; }
+  nav main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center; }
+  nav ul {
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; }
   nav ul li {
-    padding: 10px; }
+    border: 2px solid var(--lightYellow);
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: var(--midGrey); }
+  nav ul li:hover {
+    background-color: var(--darkGrey);
+    border: 2px solid var(--midPink); }
   nav img {
     width: 150px;
     height: auto;
@@ -95,8 +115,9 @@ footer {
     width: 80px;
     height: auto;
     border-radius: 50%;
-    padding: 5px; }
+    border: 3px solid var(--midPink); }
   footer li {
-    display: inline-block; }
+    display: inline-block;
+    padding: 5px; }
   footer p {
     padding: 5px 40% 5px 40%; }
