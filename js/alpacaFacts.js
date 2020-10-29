@@ -26,7 +26,7 @@
         "Baby alpacas can weigh up to 20 pounds at birth."
     ];
 
-    let randomFact = () => Math.floor((Math.random() * (alpacaFacts.length )));
+    let randomFact = () => Math.floor((Math.random() * (alpacaFacts.length)));
     let infoCycle = () => {
         informpacanator.textContent = alpacaFacts[randomFact()];
         alpacaSound.play();
