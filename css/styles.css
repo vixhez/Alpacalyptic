@@ -56,3 +56,6 @@ p {
 .bold {
   font-family: 'Poppins', sans-serif;
   font-weight: bold; }
+
+* {
+  background: black !important; }
