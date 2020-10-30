@@ -33,6 +33,28 @@ header {
 
 };
 
+@media screen and (max-width: 768px) {
+	header {
+        img {
+            width: 70px;
+            height: auto;
+            padding: 5px;
+        }
+        ul li {
+            padding: 2px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+        ul {
+            padding: 10px 10px 10px 10px;
+            display: inline-block;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+    }
+};
+
 footer {
     background-color: var(--lightGreen);
     ul {
@@ -53,5 +75,5 @@ footer {
     };
     p {
         text-align: center;
-    };
+    }
 };
