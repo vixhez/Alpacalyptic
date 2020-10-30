@@ -282,6 +282,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
   box-sizing: border-box; }
 
 .form {
