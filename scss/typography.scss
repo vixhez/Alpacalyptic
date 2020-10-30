@@ -27,6 +27,14 @@ p, form {
     color: var(--darkGrey);
 }
 
+p.bookIt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    color: var(--darkGrey);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
 .bold {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
