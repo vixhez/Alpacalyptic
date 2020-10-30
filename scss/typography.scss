@@ -9,7 +9,7 @@ h1 {
     font-size: 3rem;
 }
 
-h1.header {
+.header {
     font-family: 'Pacifico', cursive;
     font-size: 3rem;
     color: var(--midPink);
@@ -25,6 +25,14 @@ h1.header {
 p, form {
     font-family: 'Poppins', sans-serif;
     color: var(--darkGrey);
+}
+
+p.bookIt {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    color: var(--darkGrey);
+    text-align: center;
+    padding-bottom: 2rem;
 }
 
 .bold {
