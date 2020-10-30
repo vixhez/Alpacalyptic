@@ -1,0 +1,24 @@
+.bookAlpaca {
+    background-color: var(--lightPink);
+    color: var(--darkGrey);
+    font-family: 'Pacifico', cursive;
+    font-size: 2vw;
+    border: 1px solid var(--lightPink);
+    border-radius: 3px;
+    padding: 1rem;
+    position: absolute;
+	top: 3vw;
+	right: 0;
+	bottom: 15vw;
+	left: 3vw;
+	transition: 0.2s;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+.bookAlpaca:hover {
+    background-color: var(--midPink);
+    border: 1px solid var(--midPink);
+}
