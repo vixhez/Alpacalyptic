@@ -9,7 +9,7 @@ h1 {
     font-size: 3rem;
 }
 
-h1.header {
+.header {
     font-family: 'Pacifico', cursive;
     font-size: 3rem;
     color: var(--midPink);
@@ -32,7 +32,6 @@ p, form {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 p.galleryIntro {
     margin-left: 6vw;
     margin-right: 6vw;
@@ -84,7 +83,6 @@ h3.hoverText {
 	align-items: flex-start;
 }
 
-=======
 nav {
     .nav-title {
         font-family: 'Pacifico', cursive;
@@ -110,4 +108,3 @@ section {
         color: var(--midPink);
     }
 }
->>>>>>> main
