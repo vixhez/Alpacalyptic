@@ -6,13 +6,79 @@
 
 h1 {
     font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+}
+
+h1.header {
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: var(--midPink);
+    box-sizing: border-box;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
+    color: var(--darkGrey);
 }
 
 .bold {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
+
+p.galleryIntro {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-bottom: 2vw;
+}
+
+h2.cardCaps {
+    opacity: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    color: var(--lightPink);
+    position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 2vw;
+	transition: 0.2s;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+h2.cardCaps:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+h3.hoverText {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: var(--midPink);
+    position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 3vw;
+	transition: 0.2s;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
