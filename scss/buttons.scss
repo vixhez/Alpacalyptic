@@ -1,0 +1,21 @@
+.button {
+    background-color: var(--lightPink);
+    border: 1px solid var(--lightPink);
+    border-radius: 3px;
+    padding: 1rem;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
+    box-sizing: border-box;
+	margin-left: 40vw;
+	margin-right: 40vw;
+	height: 4vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button:hover {
+    background-color: var(--midPink);
+}
