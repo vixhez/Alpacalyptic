@@ -1,43 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.min.css">
-    <script defer src='./js/dist/all.min.js'></script>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.min.css">
+        <script defer src='./js/dist/all.min.js'></script>
 
-    <title>Booking</title>
-</head>
-<body>
+        <title>Booking</title>
+    </head>
+    <body>
 
-    <header></header>
-    <img class="hero" src="" alt="an alpaca doing alpaca things">
+        <header>
+            <div class="logo-n-title">
+                <img src="https://cdn.pixabay.com/photo/2020/05/01/13/03/alpaca-5116935_960_720.png" alt="Alpaca logo">
+                <h1 class="nav-title">Alpacalypso</h1>
+            </div>
+            <nav>    
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Alpacatastic!</a></li>
+                    <li><a href="form.html">Get in touch</a></li>
+                </ul>
+            </nav>
+            <p id="informpacanator">Alpaca facts go here</p>
+        </header>
 
-<section class="form">
-    <h2 class="bold contactCTA">Book Now!</h2>
-    <form action="" method="post">
+    <main class="contactForm">
+        
 
-        <label class="label" for="alpacas">Choose an Alpaca:</label>
-        <select class="input" name="alpacas" id="alpacas">
-            <option value="Motivational Mo">Motivational Mo</option>
-            <option value="Cuddler Kelly">Cuddler Kelly</option>
-            <option value="Party Paca Patty">Party Paca Patty</option>
-            <option value="Emotional Support Stevie">Emotional Support Stevie</option>
-        </select>
+        <h2 class="header">Book Now!</h2>
+        <form action="" method="post" class="form">
 
-        <label class="label" for="name">Full Name (human, not Alpaca)</label>
-        <input class="input" name="name" type="text">
+            <label class="label" for="alpacas">Choose an Alpaca:</label>
+            <select class="input" name="alpacas" id="alpacas">
+                <option value="Motivational Mo">Motivational Mo</option>
+                <option value="Stylish Simon">Stylish Simon</option>
+                <option value="Trainer Hamish">Trainer Hamish</option>
+                <option value="Singing Hepzibah">Singing Hepzibah</option>
+                <option value="Chef Johannes">Chef Johannes</option>
+                <option value="Thinking Fitzwilliam">Thinking Fitzwilliam</option>
+            </select>
 
-        <label class="label" for="email">Email Address</label>
-        <input class="input" type="email" name="email" id="email">
+            <label class="label" for="name">Full Name (human, not Alpaca)</label>
+            <input class="input" name="name" type="text">
 
-        <label class="label" for="date">Booking Date</label>
-        <input class="input" type="date" id="date" name="date">
+            <label class="label" for="email">Email Address</label>
+            <input class="input" type="email" name="email" id="email">
 
-        <label class="label" for="message">Tell as About Your Day (We speak English, Spanish, and Alpacanese)</label>
-        <textarea class="textarea" name="message" id="message" cols="60" rows="10"></textarea>
-    </form>
-</section>
+            <label class="label" for="date">Booking Date</label>
+            <input class="input" type="date" id="date" name="date">
 
-</body>
+            <label class="label" for="message">Tell us About Your Day (We speak English, Spanish, and Alpacanese)</label>
+            <textarea class="textarea" name="message" id="message" cols="60" rows="10"></textarea>
+        </form>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/" target="_blank"><img src="https://cdn.pixabay.com/photo/2015/10/12/18/13/alpaca-984882_960_720.jpg" alt="Black alpaca"></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><img src="https://cdn.pixabay.com/photo/2016/10/07/00/28/alpaca-1720404_960_720.jpg" alt="Blonde alpaca"></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><img src="https://cdn.pixabay.com/photo/2020/05/03/18/45/alpaca-5126291_960_720.jpg" alt="Brunette alpaca"></a></li>
+        </ul>
+        <p>Alpacalypso 2020 &#169;</p>
+    </footer>
+
+    </body>
 </html>
