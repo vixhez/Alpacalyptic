@@ -230,7 +230,8 @@ footer {
   max-width: 900px;
   margin-bottom: 2rem;
   border-radius: 5px;
-  border-width: 3px; }
+  border-width: 3px;
+  box-sizing: border-box; }
 
 .input {
   font-family: 'Poppins', sans-serif;
@@ -240,7 +241,8 @@ footer {
   height: 2.2rem;
   margin-bottom: 2.5rem;
   max-width: 900px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  box-sizing: border-box; }
 
 .contactForm {
   width: 100%;
@@ -248,12 +250,13 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto;
   box-sizing: border-box; }
 
 .form {
   margin: auto;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 5%; }
 
 .image-gallery {
   box-sizing: border-box;
