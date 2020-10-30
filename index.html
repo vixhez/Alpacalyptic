@@ -4,14 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script defer src='./js/dist/all.min.js'></script>
     
 
     <title>Home of The Alpacalypse</title>
 </head>
 <body>
-    <h1>Alpacalypso</h1>
-    <p id="informpacanator">Here's some regular text</p>
-    <p class="bold">Here's some bold text</p>
+    <nav>
+        <main>
+            <img src="https://cdn.pixabay.com/photo/2020/05/01/13/03/alpaca-5116935_960_720.png" alt="Alpaca logo">
+            <p class="nav-title">Alpacalypso</p>
+        </main>
+        <aside>    
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="/">Alpacatastic!</a></li>
+                <li><a href="/">Get in touch</a></li>
+            </ul>
+        </aside>
+        <p class="informpacanator">Alpaca facts go here</p>
+    </nav>
+
+    <section class="legend">
+        <p>We are <span>ethical</span> providers of <span>eclectic</span> alpacas. Welcome to the <span>excellence</span> you never knew you needed.</p>
+    </section>
+    
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="https://cdn.pixabay.com/photo/2018/08/10/07/25/vicuna-3596270_960_720.jpg" style="width:100%">
+      <img class="mySlides" src="https://cdn.pixabay.com/photo/2019/10/24/07/14/alpaca-4573563_960_720.jpg" style="width:100%">
+      <img class="mySlides" src="https://cdn.pixabay.com/photo/2018/05/20/21/35/alpacas-3416859_960_720.jpg" style="width:100%">
+      <img class="mySlides" src="https://cdn.pixabay.com/photo/2015/11/07/11/12/alpacas-1030913_960_720.jpg" style="width:100%">
+    
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/" target="_blank"><img src="https://cdn.pixabay.com/photo/2015/10/12/18/13/alpaca-984882_960_720.jpg" alt="Black alpaca"></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><img src="https://cdn.pixabay.com/photo/2016/10/07/00/28/alpaca-1720404_960_720.jpg" alt="Blonde alpaca"></a></li>
+            <li><a href="https://www.linkedin.com/" target="_blank"><img src="https://cdn.pixabay.com/photo/2020/05/03/18/45/alpaca-5126291_960_720.jpg" alt="Brunette alpaca"></a></li>
+        </ul>
+        <p>Alpacalypso 2020 &#169;</p>
+    </footer>
 </body>
 </html>
