@@ -1,7 +1,7 @@
-nav {
+header {
     background-color: var(--midGrey);
     padding: 10px;
-    main {
+    .logo-n-title {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
@@ -52,6 +52,6 @@ footer {
         padding: 5px;
     };
     p {
-        padding: 5px 40% 5px 40%;
+        text-align: center;
     };
 };
