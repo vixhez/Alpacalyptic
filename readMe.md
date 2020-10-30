@@ -5,8 +5,8 @@
 - Information widget
 
 ## Gulp
-`npm init -yes` was used in the command line to install npm. This created a `pachakge.json` file, where the packages installed are listed.
-The packages were installed by running `npm install package-name` in the command line. This downloads the specific packages required.
+`npm init -yes` was used in the command line to install npm. This created a `package.json` file, where the packages installed are listed. After that gulp was installed using `npm gulp install`.
+The packages were installed by running `gulp install package-name` in the command line. This downloads the specific packages required.
 
 ### gulpfile.js
 The `gulpfile.js` file contains all the methods used in order to:
