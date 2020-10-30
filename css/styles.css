@@ -138,14 +138,29 @@ header ul li a {
   color: var(--lightGreen);
   text-decoration: none; }
 
-section p {
+@media screen and (max-width: 768px) {
+  header .nav-title {
+    font-size: 45px; }
+  header ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: var(--lightGreen);
+    text-decoration: none; } }
+
+.legend p {
   font-size: 40px;
   color: var(--darkGrey); }
 
-section span {
+.legend span {
   font-family: 'Pacifico', cursive;
   font-size: 40px;
   color: var(--midPink); }
+
+@media screen and (max-width: 768px) {
+  .legend p {
+    font-size: 30px; }
+  .legend span {
+    font-size: 30px; } }
 
 header {
   background-color: var(--midGrey);
@@ -174,6 +189,22 @@ header {
     width: 150px;
     height: auto;
     padding: 5px; }
+
+@media screen and (max-width: 768px) {
+  header img {
+    width: 70px;
+    height: auto;
+    padding: 5px; }
+  header ul li {
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px; }
+  header ul {
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; } }
 
 footer {
   background-color: var(--lightGreen); }
