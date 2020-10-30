@@ -60,7 +60,7 @@ h1 {
   font-family: 'Pacifico', cursive;
   font-size: 3rem; }
 
-h1.header {
+.header {
   font-family: 'Pacifico', cursive;
   font-size: 3rem;
   color: var(--midPink);
@@ -75,6 +75,13 @@ h1.header {
 p, form {
   font-family: 'Poppins', sans-serif;
   color: var(--darkGrey); }
+
+p.bookIt {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vw;
+  color: var(--darkGrey);
+  text-align: center;
+  padding-bottom: 2rem; }
 
 .bold {
   font-family: 'Poppins', sans-serif;
@@ -127,12 +134,12 @@ h3.hoverText {
   justify-content: flex-end;
   align-items: flex-start; }
 
-nav .nav-title {
+header .nav-title {
   font-family: 'Pacifico', cursive;
   font-size: 100px;
   color: var(--lightPink); }
 
-nav ul li a {
+header ul li a {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   color: var(--lightGreen);
@@ -147,30 +154,30 @@ section span {
   font-size: 40px;
   color: var(--midPink); }
 
-nav {
+header {
   background-color: var(--midGrey);
   padding: 10px; }
-  nav main {
+  header .logo-n-title {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center; }
-  nav ul {
+  header ul {
     padding: 10px 10px 10px 10px;
     display: inline-block;
     display: flex;
     flex-flow: row wrap;
     justify-content: center; }
-  nav ul li {
+  header ul li {
     border: 2px solid var(--lightYellow);
     padding: 10px;
     margin-left: 15px;
     margin-right: 15px;
     background-color: var(--midGrey); }
-  nav ul li:hover {
+  header ul li:hover {
     background-color: var(--darkGrey);
     border: 2px solid var(--midPink); }
-  nav img {
+  header img {
     width: 150px;
     height: auto;
     padding: 5px; }
@@ -190,7 +197,27 @@ footer {
     display: inline-block;
     padding: 5px; }
   footer p {
-    padding: 5px 40% 5px 40%; }
+    text-align: center; }
+
+.button {
+  background-color: var(--lightPink);
+  border: 1px solid var(--lightPink);
+  border-radius: 3px;
+  padding: 1rem;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 2vw;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin-left: 40vw;
+  margin-right: 40vw;
+  height: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.button:hover {
+  background-color: var(--midPink); }
 
 .label {
   display: block;
@@ -268,7 +295,14 @@ form {
     font-size: 2.5rem; }
   h3.hoverText {
     font-size: 3vw;
-    padding-bottom: 3rem; } }
+    padding-bottom: 3rem; }
+  p.bookIt {
+    font-size: 3vw; }
+  a.button {
+    font-size: 4vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 6vw; } }
 
 figure {
   position: relative;
