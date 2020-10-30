@@ -75,7 +75,7 @@ h3.hoverText {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	padding: 3vw;
+	padding: 2vw;
 	transition: 0.2s;
 	display: flex;
 	flex-direction: column;
@@ -83,7 +83,7 @@ h3.hoverText {
 	align-items: flex-start;
 }
 
-nav {
+header {
     .nav-title {
         font-family: 'Pacifico', cursive;
         font-size: 100px;
@@ -105,6 +105,5 @@ section {
     span {
         font-family: 'Pacifico', cursive;
         font-size: 40px;
-        color: var(--midPink);
     }
 }
