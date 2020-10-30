@@ -31,6 +31,15 @@ header {
         padding: 5px;
     }
 
+    .nav-title {
+        padding: 5%;
+    }
+
+    #informpacanator {
+        color: var(--lightYellow);
+        text-align: center;
+    }
+
 };
 
 @media screen and (max-width: 768px) {

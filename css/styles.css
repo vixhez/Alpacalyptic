@@ -196,6 +196,11 @@ header {
     width: 150px;
     height: auto;
     padding: 5px; }
+  header .nav-title {
+    padding: 5%; }
+  header #informpacanator {
+    color: var(--lightYellow);
+    text-align: center; }
 
 @media screen and (max-width: 768px) {
   header img {
