@@ -2,6 +2,8 @@
     display: block;
     font-size: 1rem;
     margin-bottom: 0.3rem;
+
+    color: var(--darkGrey);
 }
 
 .textarea  {
@@ -11,7 +13,10 @@
     margin-bottom: 2rem;
     border-radius: 5px;
     border-width: 3px;
+    border-color: var(--midPink);
     box-sizing: border-box;
+
+    color: var(--darkGrey);
 }
 
 .input  {
@@ -23,6 +28,8 @@
     height: 2.2rem;
     margin-bottom: 2.5rem;
     max-width: 900px;
+
+    border-color: var(--midPink);
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -52,7 +59,7 @@
     border-radius: 3px;
     font-family: 'Pacifico', cursive;
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
     text-decoration: none;
     box-sizing: border-box;
 
@@ -64,8 +71,13 @@
 
 .submit:hover {
     background-color: var(--midPink);
+    cursor: pointer;
 }
 
 
 // Media Queries
-
+@media screen and (max-width: 800px) {
+	.submit {
+        font-size: 5vw;
+	}
+}
