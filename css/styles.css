@@ -177,15 +177,13 @@ header {
     align-items: center; }
   header ul {
     padding: 10px 10px 10px 10px;
-    display: inline-block;
     display: flex;
     flex-flow: row wrap;
     justify-content: center; }
   header ul li {
     border: 2px solid var(--lightYellow);
     padding: 10px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 15px 15px;
     background-color: var(--midGrey); }
   header ul li:hover {
     background-color: var(--darkGrey);
@@ -207,14 +205,24 @@ header {
     padding: 5px; }
   header ul li {
     padding: 2px;
-    margin-left: 2px;
-    margin-right: 2px; }
+    margin: 0 5px; }
   header ul {
-    padding: 10px 10px 10px 10px;
-    display: inline-block;
+    padding: 10px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center; } }
+
+@media screen and (max-width: 370px) {
+  header img {
+    display: none; }
+  header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  header ul li {
+    margin: 10px;
+    padding: 5%; } }
 
 footer {
   background-color: var(--lightGreen); }
