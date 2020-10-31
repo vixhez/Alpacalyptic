@@ -65,9 +65,7 @@ h1 {
   font-size: 3rem;
   color: var(--midPink);
   box-sizing: border-box;
-  margin-left: 3vw;
-  margin-right: 3vw;
-  height: 200px;
+  margin: 3vw 3vw;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -259,7 +257,8 @@ footer {
 .label {
   display: block;
   font-size: 1rem;
-  margin-bottom: 0.3rem; }
+  margin-bottom: 0.3rem;
+  color: var(--darkGrey); }
 
 .textarea {
   display: block;
@@ -268,7 +267,9 @@ footer {
   margin-bottom: 2rem;
   border-radius: 5px;
   border-width: 3px;
-  box-sizing: border-box; }
+  border-color: var(--midPink);
+  box-sizing: border-box;
+  color: var(--darkGrey); }
 
 .input {
   font-family: 'Poppins', sans-serif;
@@ -278,6 +279,7 @@ footer {
   height: 2.2rem;
   margin-bottom: 2.5rem;
   max-width: 900px;
+  border-color: var(--midPink);
   border-radius: 5px;
   box-sizing: border-box; }
 
@@ -295,6 +297,27 @@ footer {
   box-sizing: border-box;
   max-width: 100%;
   padding: 5%; }
+
+.submit {
+  background-color: var(--lightPink);
+  border: 1px solid var(--lightPink);
+  border-radius: 3px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 3vw;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.submit:hover {
+  background-color: var(--midPink);
+  cursor: pointer; }
+
+@media screen and (max-width: 800px) {
+  .submit {
+    font-size: 5vw; } }
 
 .image-gallery {
   box-sizing: border-box;

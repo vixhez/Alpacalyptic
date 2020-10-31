@@ -2,6 +2,8 @@
     display: block;
     font-size: 1rem;
     margin-bottom: 0.3rem;
+
+    color: var(--darkGrey);
 }
 
 .textarea  {
@@ -11,7 +13,10 @@
     margin-bottom: 2rem;
     border-radius: 5px;
     border-width: 3px;
+    border-color: var(--midPink);
     box-sizing: border-box;
+
+    color: var(--darkGrey);
 }
 
 .input  {
@@ -23,6 +28,8 @@
     height: 2.2rem;
     margin-bottom: 2.5rem;
     max-width: 900px;
+
+    border-color: var(--midPink);
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -41,21 +48,36 @@
 .form {
     margin: auto;
     box-sizing: border-box;
+
     max-width: 100%;
     padding: 5%;
 }
 
-// Media Queriesss
-// @media screen and (max-width: 600px) {
+.submit {
+    background-color: var(--lightPink);
+    border: 1px solid var(--lightPink);
+    border-radius: 3px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 3vw;
+    text-decoration: none;
+    box-sizing: border-box;
 
-//     .form {
-//         max-width: 450px;
-//     }
-// }
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    
+}
 
-// @media screen and (max-width: 500px) {
+.submit:hover {
+    background-color: var(--midPink);
+    cursor: pointer;
+}
 
-//     .form {
-//         max-width: 280px;
-//     }
-// }
+
+// Media Queries
+@media screen and (max-width: 800px) {
+	.submit {
+        font-size: 5vw;
+	}
+}
