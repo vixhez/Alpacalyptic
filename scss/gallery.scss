@@ -79,7 +79,19 @@ figure {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		margin-bottom: 3rem;
-	}
+    }
+
+    .hoverOnly {
+        opacity: 1;
+    }
+
+    .hoverText {
+        opacity: 1;
+    }
+
+    h2.cardCaps {
+        font-size: 1rem;
+    }
 }
 
 .hoverOnly {
