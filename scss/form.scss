@@ -41,21 +41,31 @@
 .form {
     margin: auto;
     box-sizing: border-box;
+
     max-width: 100%;
     padding: 5%;
 }
 
-// Media Queriesss
-// @media screen and (max-width: 600px) {
+.submit {
+    background-color: var(--lightPink);
+    border: 1px solid var(--lightPink);
+    border-radius: 3px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
+    box-sizing: border-box;
 
-//     .form {
-//         max-width: 450px;
-//     }
-// }
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    
+}
 
-// @media screen and (max-width: 500px) {
+.submit:hover {
+    background-color: var(--midPink);
+}
 
-//     .form {
-//         max-width: 280px;
-//     }
-// }
+
+// Media Queries
+

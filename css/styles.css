@@ -65,9 +65,7 @@ h1 {
   font-size: 3rem;
   color: var(--midPink);
   box-sizing: border-box;
-  margin-left: 3vw;
-  margin-right: 3vw;
-  height: 200px;
+  margin: 3vw 3vw;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -295,6 +293,22 @@ footer {
   box-sizing: border-box;
   max-width: 100%;
   padding: 5%; }
+
+.submit {
+  background-color: var(--lightPink);
+  border: 1px solid var(--lightPink);
+  border-radius: 3px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-size: 2vw;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.submit:hover {
+  background-color: var(--midPink); }
 
 .image-gallery {
   box-sizing: border-box;
